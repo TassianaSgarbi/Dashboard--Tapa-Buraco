@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"SERVIÇO TAPA BURACO" - PRODESAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+         <div class="navbar">
+            <svg> </svg>
+        
+        <div class="switch">
+                <div class="fas fa-sun"></div>
+                <div class="switch__track"></div>
+                <div class="fas fa-moon"></div>
+            </div>
+        </div>
+    
+       <div class="container">
+        <div class="state-select">
+            <div class="state-select-toggle">
+                <span class="state-select-toggle__state-selected">Santos</span>
+                <i class="fas fa-chevron-down state-select-toggle__icon"></i>
+            </div>
+            <div class="state-select-list">
+                <input type="text" placeholder="Procurar SubPrefeitura..." class="state-select-list__search">
+                <ul>
+                    <li class="state-select-list__item" data-id="Santos=true">Santos</li>
+                    <li class="state-select-list__item" data-id="1">Zona da Orla e intermediária</li>
+                    <li class="state-select-list__item" data-id="2">Região Central Histórica</li>
+                    <li class="state-select-list__item" data-id="3">Zona dos Morros</li>
+                    <li class="state-select-list__item" data-id="4">Zona Noroeste</li>
+                    <li class="state-select-list__item" data-id="5">Área Continental</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="status">
+            <div class="status__icon status__icon--confirmed">
+                <div class=""></div>
+            </div>
+            <div class="info">
+                <span class="info__total info__total--confirmed">123,456,789</span>
+                <h2 class="info__label">Total de Solicitação de Demandas</h2>
+            </div>
+        </section>
+
+        <section class="status">
+            <div class="status__icon status__icon--abertas">
+                <div class=""></div>
+            </div>
+            <div class="info">
+                <span class="info__total info__total--abertas">123,456,789</span>
+                <h2 class="info__label">Demandas Abertas</h2>
+            </div>
+        </section>
+
+        <section class="status">
+            <div class="status__icon status__icon--vistoriadas">
+                <div class=""></div>
+            </div>
+            <div class="info">
+                <span class="info__total info__total--vistoriadas">123,456,789</span>
+                <h2 class="info__label">Demandas Vistoriadas</h2>
+            </div>
+        </section>
+
+        <section class="status">
+            <div class="status__icon status__icon--executadas">
+                <div class=""></div>
+            </div>
+            <div class="info">
+                <span class="info__total inf info__total--executadas">123,456,789</span>
+                <h2 class="info__label">Demandas Executadas</h2>
+            </div>
+        </section>
+
+        <section class="data-box data-box--30">
+            <h2 class="data-box__header">
+                executadas (últimos 30 dias)
+            </h2>
+            <div class="data-box__body"></div>
+        </section>
+
+        <section class="data-box data-box--abertas">
+            <h2 class="data-box__header">
+                abertas
+            </h2>
+            <div class="data-box__body"></div>
+        </section>
+
+        <section class="data-box data-box--executadas">
+            <h2 class="data-box__header">
+                executadas
+            </h2>
+            <div class="data-box__body"></div>
+        </section>
+
+        <section class="data-box data-box--executadas-h">
+            <h2 class="data-box__header">
+                Hanking das ruas com maior número de demandas registradas
+            </h2>
+            <div class="data-box__body"></div>
+        </section>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.27.3/apexcharts.min.js" integrity="sha512-nKTh1Ik8Kzbrxo9A6xOBtEbzdNYcjI4Pr5XE88sNJQk87sY8mBlUfh61lYm0i710r5mGcIZ9tWSwORQbQ4plQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+ .total {
+            color: red;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .primeirolugar {
+            color: gold;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .segundolugar {
+            color: silver;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .terceirolugar {
+            color: Brown ;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    margin: 3rem 1.6rem;
+}
+    footer {
+    background-color: var(--clr-card);
+    transition: var(--transition);
+    font: var(--ts-normal-semibold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 19rem;
+    text-align: center;
+}
+
+.label-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.label-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.label-container .option {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.label-container .option:hover {
+    background-color: #d0d0d0;
+}
+.label-container .option.selected {
+    background-color: #c0c0c0;
+    font-weight: bold;
+}
